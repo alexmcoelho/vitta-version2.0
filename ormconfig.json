@@ -1,0 +1,17 @@
+[
+  {
+    "name": "mongo",
+    "type": "mongodb",
+    "host": "localhost",
+    "username": "nodeauth",
+    "password": "nodeauth",
+    "authSource": "admin",
+    "useNewUrlParser": true,
+    "port": 27017,
+    "database": "nodeauth",
+    "useUnifiedTopology": true,
+    "entities": [
+      "./src/modules/**/infra/typeorm/schemas/*.ts"
+    ]
+  }
+]
